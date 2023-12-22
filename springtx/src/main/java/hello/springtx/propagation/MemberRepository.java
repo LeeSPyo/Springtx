@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MemberRepository {
 	private final EntityManager em;
 
-	@Transactional
+	//@Transactional
 	public void save(Member member) {
 		log.info("member ÀúÀå");
 		em.persist(member);
